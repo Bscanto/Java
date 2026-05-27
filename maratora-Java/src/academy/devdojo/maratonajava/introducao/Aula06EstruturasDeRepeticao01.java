@@ -14,7 +14,7 @@ public class Aula06EstruturasDeRepeticao01 {
         int count=0;
 
         do {
-            System.out.println("Contador: "+count);
+            System.out.println("Contador: " + count);
             count++;
         }while (count < 5);
 

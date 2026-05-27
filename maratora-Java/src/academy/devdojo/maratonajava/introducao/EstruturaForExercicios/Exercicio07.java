@@ -1,0 +1,28 @@
+package academy.devdojo.maratonajava.introducao.EstruturaForExercicios;
+
+
+import java.util.Scanner;
+
+/*
+Fazer um programa para ler um número inteiro positivo N. O programa deve então mostrar na tela N linhas,
+começando de 1 até N. Para cada linha, mostrar o número da linha, depois o quadrado e o cubo do valor, conforme
+exemplo.
+
+Entrada:            Saída:
+5                   1 1 1
+                    2 4 8
+                    3 9 27
+                    4 16 64
+                    5 25 125
+ */
+public class Exercicio07 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+        sc.close();
+    }
+}
+
+

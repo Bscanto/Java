@@ -4,7 +4,7 @@ public class Aula04Operadores {
     public static void main(String[] args) {
 
         System.out.println("Operadores Aritméticos");
-        // 1️⃣ Operadores Aritméticos
+        // Operadores Aritméticos
         // =============================
         int a = 10;
         int b = 3;
