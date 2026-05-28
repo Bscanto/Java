@@ -17,6 +17,23 @@ public class Exercicio04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Digite com a quantidades: ");
+        double N = sc.nextInt();
 
+        for (int i = 0; i < N; i++) {
+
+            System.out.println("Entre com numero");
+            double a = sc.nextDouble();
+            System.out.println("Entre com outro numero");
+            double b = sc.nextDouble();
+
+            if (b == 0) {
+                System.out.println("divisao impossivel");
+            } else {
+                double div = (double) a / b;
+                System.out.printf("%.1f%n", div);
+            }
+        }
+        sc.close();
     }
 }
