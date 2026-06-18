@@ -19,12 +19,21 @@ public class Aula08ArraysMultidimensionais {
                 System.out.println(dias[i][j]);
             }
         }
+
         System.out.println("-----------------\n");
         System.out.println("Array com Foreach");
         for (int[] arrBase : dias){
             for (int num: arrBase){
                 System.out.println(num);
             }
+        }
+        double m[ ][ ] = new double[2][4];
+        for (int i=0; i<m.length; i++) {
+            for (int j = 0; j < m[i].length; j++) {
+                m[i][j] = i * 2 + j * 3;
+                System.out.print(m[i][j] + "\t");
+            }
+            System.out.println();
         }
     }
 }
